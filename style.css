@@ -1,0 +1,52 @@
+/* Enter here links of google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&family=Patua+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Slabo+13px&display=swap');
+
+/* Write here html body part css */
+body{
+    background-image: url("bg.jpg");
+    background-size: 50%;
+}
+
+.btn-primary{
+    width: 100% !important;
+    margin-top: 0px;
+}
+
+canvas{  
+    border: 8px solid gray;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px black solid;
+}
+
+
+h2{
+    font-size: 28px !important;
+    font-family: 'Patua One', cursive !important;
+}
+
+p{
+    font-size: 18px !important;
+    color: cyan !important;
+}
+
+.text-danger{
+    color: tomato !important;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: black;   
+    color: white;
+    font-family: 'Slabo 13px', serif;
+}
+
+.btn-danger{
+    font-family: 'Acme', sans-serif !important;
+    font-size: 20px !important;
+}
